@@ -1,32 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
   background-color:black;
 }
 
 
-div {
+#screen {
   text-align:center;
   position:absolute;
   border:8px solid #1086e8;
   width:600px;
   top:150px;
   border-radius:40px;
-  left:30%;
+  left:35%;
   margin: -50px 0 0 -150px;
   animation: border-flicker 2s linear infinite;
 }
 
 h1 {
   color:#FF00E6;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-
+  font-family: 'Rubik Mono One', sans-serif;
   font-size:80px;
   font-weight: 100;
   letter-spacing:10px;
   animation: text-flicker 3s linear infinite;
 }
 
+.Night{
+  width: 100%;
+  height:auto;
+}
 #offset {
   animation: letter-flicker 2s linear infinite;
 }
@@ -173,7 +176,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 
 
 h6{font-size: 100px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Pathway Gothic One', sans-serif;
   position: absolute;
   top:1000px;
   left:400px;
@@ -184,80 +187,74 @@ h6{font-size: 100px;
 
 
 .No1{
-            position:absolute;
-            top:1305px;
-            left:0px;
-
-
+    position:absolute;
+    top:1200px;
+    left:0px;
 }
 
 .No2{
-            position:absolute;
-            top:1305px;
-            left:230px;
-
+    position:absolute;
+    top:1200px;
+    left:230px;
 }
 
 
 .No3{
-            position:absolute;
-            top:1700px;
-            left:100px;
-
+    position:absolute;
+    top:1590px;
+    left:-30px;
 }
 
 .No4 {
-            position:absolute;
-            top:1700px;
-            left:350px;
+    position:absolute;
+    top:1590px;
+    left:220px;
 
 }
 
 .No5 {
-            position:absolute;
-            top:1700px;
-            left:820px;
+    position:absolute;
+    top:1920px;
+    left:30px;
 }
 
 .Pinkposter {
             position:absolute;
             top:3895px;
-            left:650px;
+            left:560px;
 }
 
 .Yes1{
             position:absolute;
-            top:2600px;
-            left:0px;
+            top:2400px;
+            right:0px;
 }
 
 .Yes2{
             position:absolute;
-            top:2600px;
-            left:430px;
+            top:2400px;
+            right:340px;
 
 }
 
 .Yes3{
 
               position:absolute;
-              top:2900px;
-              left:250px;
+              top:2700px;
+              right:30px;
 
 }
 
 .Yes4{
-
               position:absolute;
-              top:2900px;
-              left:760px;
-
+              top:2970px;
+              right:380px;
 }
 
 .Yes5{
 
               position:absolute;
-              top:3250px;
+              top:3300px;
               left:550px;
 
 }
@@ -270,20 +267,29 @@ h6{font-size: 100px;
   left:220px;
   color: white;
 } */
-
-h2 {font-size: 28px;
+/* h1{
+  font-size: 28px;
   font-family: 'Raleway', serif;
   position: absolute;
   top:210px;
   left:560px;
   color:hotpink;
+} */
+
+h2 {font-size: 28px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  position: absolute;
+  top:120px;
+  right:600px;
+  color:hotpink;
   }
 
-h3{font-size: 18px;
+h3{
+  font-size: 18px;
   font-family: 'Raleway', serif;
   position: absolute;
-  top:410px;
-  left:250px;
+  top:520px;
+  left:300px;
   color:white;
 
 }
@@ -291,8 +297,8 @@ h3{font-size: 18px;
 h4{font-size: 18px;
   font-family: 'Raleway', serif;
   position: absolute;
-  top:720px;
-  left:400px;
+  top:780px;
+  left:420px;
   color:white;
 
 }
@@ -300,7 +306,7 @@ h4{font-size: 18px;
 h5{font-size: 18px;
   font-family: 'Raleway', serif;
   position: absolute;
-  top:920px;
+  top:1050px;
   left:300px;
   color:pink;
 
@@ -325,46 +331,49 @@ font-family: 'Raleway', serif;  position:absolute;
 }  */
 
 h7{
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Raleway', serif;
   position: absolute;
   top:4500px;
-  left: 500px;
-  color: yellow;
+  left: 300px;
+  color:pink;
 }
 
 #working {
   position: absolute;
-  top:1200px;
+  top:1150px;
   left:470px;
   color:hotpink;
-  font-size: 100px;
+  font-size: 150px;
+  width: 600px;
 }
 #working:hover:after{
     content:" no no no no no";
     color:pink;
+    font-size: 230px;
 }
 #notworking{
-  font-size: 160px;
+  font-size: 150px;
   font-family: 'Raleway', serif;  position:absolute;
   width: 900px;
   height: 1200px;
-  top:2400px;
-  left:270px;
+  top:2450px;
+  left:2%;
   color: steelblue;
 
 }
 
 #notworking:hover:after{
     content:"yeah yeah yeah yeah yeah";
-        color: lightblue;
+    color: lightblue;
+    font-size: 220px;
 
 }
 
 #go{
-  font-size: 160px;
+  font-size: 100px;
   font-family: 'Raleway', serif;  position:absolute;
-  width: 900px;
+  width: 500px;
   height: 180px;
   top:3900px;
   left:270px;
@@ -373,8 +382,9 @@ h7{
 }
 
 #go:hover:after{
-    content:"go go go go go ";
-        color: lightblue;
+  font-size: 160px;
+  content:"go go go go go ";
+  color: lightblue;
 
 }
 
